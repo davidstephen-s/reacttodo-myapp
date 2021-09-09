@@ -1,0 +1,193 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-color: khaki;
+}
+/* .App{
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0rem;
+} */
+.error{
+  color:red;
+}
+/* form{
+  display: flex;
+  flex-direction: row;
+  margin: 30px ;
+} */
+/* form button{
+  height:40px;
+  padding :10px;
+  border: 1px solid lightgray;
+  background-color: white;
+  color:orange;
+  border-radius: 5px;
+} */
+.form-control{
+  border:none;
+  border-radius: 0px;
+}
+select {
+  width: 150px;
+  margin: 10px;
+}
+/* form input {
+  height:39px;
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  background: white;
+}  */
+form button {
+  height:38px;
+  padding: 0.5rem;
+  color: #ff6f47;
+  background: #f7fffe;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+form button:hover {
+  background: #ff6f47;
+  color: white;
+}
+
+.todo{
+  display: flex;
+  flex-basis: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.todo-item{
+  background-color: white;
+  padding: 0rem 0.5rem;
+  line-height: 40px;
+  width: auto;
+}
+.completed-todo{
+  background-color: green;
+  color:white;
+  
+}
+.todo-item button{
+    padding: 0px;
+}
+
+/* li button{
+  border: none;
+  background-color: white; 
+} */
+ul .complete-todo,button .fa-check{
+  background-color: rgb(112, 219, 112);
+  color:white;
+  border-radius: 0px;
+}
+ul .delete-todo, button .fa-trash{
+background-color: red;
+color: white;
+border-radius: 0px;
+}
+.completed{
+opacity: 0.5;
+}*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-color: khaki;
+}
+/* .App{
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0rem;
+} */
+.error{
+  color:red;
+}
+/* form{
+  display: flex;
+  flex-direction: row;
+  margin: 30px ;
+} */
+/* form button{
+  height:40px;
+  padding :10px;
+  border: 1px solid lightgray;
+  background-color: white;
+  color:orange;
+  border-radius: 5px;
+} */
+.form-control{
+  border:none;
+  border-radius: 0px;
+}
+select {
+  width: 150px;
+  margin: 10px;
+}
+/* form input {
+  height:39px;
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  background: white;
+}  */
+form button {
+  height:38px;
+  padding: 0.5rem;
+  color: #ff6f47;
+  background: #f7fffe;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+form button:hover {
+  background: #ff6f47;
+  color: white;
+}
+
+.todo{
+  display: flex;
+  flex-basis: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.todo-item{
+  background-color: white;
+  padding: 0rem 0.5rem;
+  line-height: 40px;
+  width: auto;
+}
+.completed-todo{
+  background-color: green;
+  color:white;
+  
+}
+.todo-item button{
+    padding: 0px;
+}
+
+/* li button{
+  border: none;
+  background-color: white; 
+} */
+ul .complete-todo,button .fa-check{
+  background-color: rgb(112, 219, 112);
+  color:white;
+  border-radius: 0px;
+}
+ul .delete-todo, button .fa-trash{
+background-color: red;
+color: white;
+border-radius: 0px;
+}
+.completed{
+opacity: 0.5;
+}
